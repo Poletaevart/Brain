@@ -30,10 +30,12 @@ class TaskViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         self.view.addSubview(self.taskButton)
         self.navigationItem.title = "Сегодня"
+        
         // Настройка UITableView
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.backgroundColor = .white
         self.view.backgroundColor = .white
         // Регистрация ячейки, которую вы будете использовать
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
