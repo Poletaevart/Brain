@@ -19,13 +19,13 @@ class CenterViewController: UIViewController{
     }()
     private lazy var todayImage: UIImageView = {
         let todayImage = UIImageView()
-        todayImage.image = UIImage(systemName: "tray")
+        todayImage.image = UIImage(systemName: "star")
         todayImage.translatesAutoresizingMaskIntoConstraints = false
         return todayImage
     }()
     private lazy var tomorrowImage: UIImageView = {
         let tomorrowImage = UIImageView()
-        tomorrowImage.image = UIImage(systemName: "tray")
+        tomorrowImage.image = UIImage(systemName: "trash")
         tomorrowImage.translatesAutoresizingMaskIntoConstraints = false
         return tomorrowImage
     }()
