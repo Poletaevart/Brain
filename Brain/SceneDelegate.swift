@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let taskViewController = TaskViewController()
-        let centerViewController = CenterViewController()
+        let centerViewController = MenuViewController()
         let taskNavigation = UINavigationController(rootViewController: taskViewController)
         let centerNavigation = UINavigationController(rootViewController: centerViewController)
         let tabBarController = UITabBarController()

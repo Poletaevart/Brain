@@ -8,7 +8,7 @@
 import UIKit
 
 
-class CenterViewController: UIViewController{
+class MenuViewController: UIViewController{
     //MARK: - View
     
     private lazy var inBoxImage: UIImageView = {
