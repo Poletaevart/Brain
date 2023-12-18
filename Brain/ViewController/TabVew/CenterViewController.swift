@@ -82,7 +82,7 @@ class CenterViewController: UIViewController{
     
     //MARK: - objc
     @objc private func tapButton() {
-        let postview = inBoxViewController()
+        let postview = InBoxViewController()
         self.navigationController?.pushViewController(postview, animated: true)
         print("🍏")
     }
@@ -93,7 +93,7 @@ class CenterViewController: UIViewController{
         print("📱")
     }
     @objc private func colectionTapButton() {
-        let colectionview = ColectionViewController()
+        let colectionview = TrashViewController()
         self.navigationController?.pushViewController(colectionview, animated: true)
         print("🔥")
     }

@@ -7,12 +7,12 @@
 
 import UIKit
 
-class ColectionViewController: UIViewController {
+class TrashViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .systemRed
-        self.navigationItem.title = "Колекция"
+        self.view.backgroundColor = .white
+        self.navigationItem.title = "Корзина"
     }
 }
 

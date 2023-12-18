@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5C1950F629D5C54E00F1D970 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1950F529D5C54E00F1D970 /* CenterViewController.swift */; };
-		5C1950F829D5CF7900F1D970 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1950F729D5CF7900F1D970 /* PostViewController.swift */; };
+		5C1950F829D5CF7900F1D970 /* InBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1950F729D5CF7900F1D970 /* InBoxViewController.swift */; };
 		5C1950FA29D5E04F00F1D970 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1950F929D5E04F00F1D970 /* TableViewController.swift */; };
-		5C1950FC29D5E18600F1D970 /* ColectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1950FB29D5E18600F1D970 /* ColectionViewController.swift */; };
+		5C1950FC29D5E18600F1D970 /* TrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1950FB29D5E18600F1D970 /* TrashViewController.swift */; };
 		5C89A90E29D5B9BC0042A607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89A90D29D5B9BC0042A607 /* AppDelegate.swift */; };
 		5C89A91029D5B9BC0042A607 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89A90F29D5B9BC0042A607 /* SceneDelegate.swift */; };
 		5C89A91729D5B9BE0042A607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C89A91629D5B9BE0042A607 /* Assets.xcassets */; };
@@ -20,9 +20,9 @@
 
 /* Begin PBXFileReference section */
 		5C1950F529D5C54E00F1D970 /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
-		5C1950F729D5CF7900F1D970 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		5C1950F729D5CF7900F1D970 /* InBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InBoxViewController.swift; sourceTree = "<group>"; };
 		5C1950F929D5E04F00F1D970 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		5C1950FB29D5E18600F1D970 /* ColectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColectionViewController.swift; sourceTree = "<group>"; };
+		5C1950FB29D5E18600F1D970 /* TrashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashViewController.swift; sourceTree = "<group>"; };
 		5C89A90A29D5B9BC0042A607 /* Brain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C89A90D29D5B9BC0042A607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C89A90F29D5B9BC0042A607 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 			children = (
 				5CA9665629F282C200F167EF /* TabVew */,
 				5CA9665229F26B4600F167EF /* PostView */,
-				5C1950F729D5CF7900F1D970 /* PostViewController.swift */,
-				5C1950FB29D5E18600F1D970 /* ColectionViewController.swift */,
+				5C1950F729D5CF7900F1D970 /* InBoxViewController.swift */,
+				5C1950FB29D5E18600F1D970 /* TrashViewController.swift */,
 				5C1950F929D5E04F00F1D970 /* TableViewController.swift */,
 			);
 			path = ViewController;
@@ -181,10 +181,10 @@
 				5C1950F629D5C54E00F1D970 /* CenterViewController.swift in Sources */,
 				5CA9665529F2828A00F167EF /* TaskViewController.swift in Sources */,
 				5C89A90E29D5B9BC0042A607 /* AppDelegate.swift in Sources */,
-				5C1950F829D5CF7900F1D970 /* PostViewController.swift in Sources */,
+				5C1950F829D5CF7900F1D970 /* InBoxViewController.swift in Sources */,
 				5C1950FA29D5E04F00F1D970 /* TableViewController.swift in Sources */,
 				5C89A91029D5B9BC0042A607 /* SceneDelegate.swift in Sources */,
-				5C1950FC29D5E18600F1D970 /* ColectionViewController.swift in Sources */,
+				5C1950FC29D5E18600F1D970 /* TrashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
